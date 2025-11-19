@@ -1,8 +1,8 @@
-🦯 Blind Assistance System (YOLOv10-L)
+# 🦯 Blind Assistance System (YOLOv10)
 
 A real-time AI-powered assistive system that helps visually impaired users navigate safely using computer vision, distance estimation, and voice interaction. The model identifies nearby obstacles, measures their distance, determines direction, and provides hands-free audio instructions.
 
-🚀 Features
+## 🚀 Features
 🔍 Real-Time Object Detection
 
 Uses YOLOv10-L for high-accuracy detection
@@ -43,7 +43,7 @@ View logs
 
 Adjust settings (TTS rate, cooldown, camera index)
 
-🧠 Tech Stack
+## 🧠 Tech Stack
 
 YOLOv10-L, Ultralytics
 
@@ -61,7 +61,7 @@ Streamlit
 
 Python 3.11
 
-🏗 System Architecture Diagram
+# 🏗 System Architecture Diagram
 
                    ┌──────────────────────────┐
                    │      Laptop Camera        │
@@ -104,7 +104,7 @@ Python 3.11
                       │  Speakers)    │
                       └───────────────┘
 
-🎤 Voice Command Control Flow
+# 🎤 Voice Command Control Flow
 
                ┌─────────────────────────────┐
                │ SpeechRecognition + PyAudio │
@@ -130,7 +130,7 @@ Python 3.11
 
 
 
-🛠 Installation
+## 🛠 Installation
 git clone https://github.com/aryanpawar123/blind-assistance-system.git
 cd blind-assistance-system
 python -m venv .venv
@@ -153,7 +153,7 @@ calibrate
 
 Press Q to quit the camera window
 
-🧪 Calibration Guide
+## 🧪 Calibration Guide
 
 Say “calibrate”
 
@@ -167,7 +167,7 @@ Repeat 3–5 times
 
 Press Q to save calibration
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 
 Neural depth estimation
 
@@ -177,7 +177,7 @@ GPS-based outdoor navigation
 
 Stereo directional audio
 
-🏆 Credits
+###🏆 Credits
 
 Developed by Aryan Pawar
 Built using YOLOv10 by Ultralytics, OpenCV, PyTorch, and speech technologies.
