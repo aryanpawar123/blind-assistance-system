@@ -1,0 +1,16 @@
+# virtual environment
+.venv/
+venv/
+
+# python cache
+__pycache__/
+
+# model weights
+*.pt
+
+# calibration files
+calibration.json
+
+# temporary files
+*.tmp
+*.log
